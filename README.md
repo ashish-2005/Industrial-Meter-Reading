@@ -1,4 +1,4 @@
-# Indutrial Meter Reading
+# Industrial Meter Reading
 
 ![image](https://user-images.githubusercontent.com/71766106/229355994-63833df4-158f-4442-a599-93bbcccf3236.png)
 
