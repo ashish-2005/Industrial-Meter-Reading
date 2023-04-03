@@ -12,7 +12,7 @@
 
 ![vid](https://user-images.githubusercontent.com/71766106/229518897-0e01e44d-b2a0-40f1-a823-c11a6b0afb8c.gif)
 
-*(Readings are a bit inaccurate becuase model is trained on meter with MPa unit and inerval 25/50 | 1.6/32 and i was unable to find video of working meter with these specification, this can easily be cured by introdusing more diverse meters for training)*
+*(Readings are a bit inaccurate becuase model is trained on meter with MPa unit and inerval 25/50 | 1.6/32 and i was unable to find video of working meter with these specification, this can easily be cured by introducing more diverse meters for training)*
 
 ## OpenVINO compatibility test
 
