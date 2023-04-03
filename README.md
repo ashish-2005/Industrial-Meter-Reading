@@ -19,12 +19,10 @@
 To test compatibilty of model with OpenVINO, I ran benchmark test on both models.
 
 ![Detector](https://user-images.githubusercontent.com/71766106/229520580-2fab5dea-8d3b-4591-91ad-93069da63c82.png)
-
-	         (Detector Benchmarks)
+*(Detector Benchmarks)*
 
 ![segmentor](https://user-images.githubusercontent.com/71766106/229517544-093b978b-bfa6-4db3-a3a2-85fd75ad9c90.png)
-
-  	        (Segmentor Benchmarks)
+*(Segmentor Benchmarks)*
 
 ## Optimization
 * For now, segmentor is backed with Resnet50 which makes it unnecessarily powerful but slow. I am planning to try differnt backbone artitechtures like VGG16/19, Resnet18/34 to make it faster. 
