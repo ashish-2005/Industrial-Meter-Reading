@@ -16,7 +16,7 @@
 
 ## OpenVINO compatibility test
 
-To test compatibilty of model with OpenVINO, I ran benchmark test on both models.
+To test compatibilty of model with OpenVINO, I first converted them to OpenVINO-IR then ran benchmark test on both models.
 
 | ![Detector](https://user-images.githubusercontent.com/71766106/229520580-2fab5dea-8d3b-4591-91ad-93069da63c82.png) |
 |:--:|
