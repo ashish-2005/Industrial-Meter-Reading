@@ -27,6 +27,8 @@ To test compatibilty of model with OpenVINO, I first converted them to OpenVINO-
 | *Segmentor Benchmarks* |
 
 ## Optimization
-* For now, segmentor is backed with Resnet50 which makes it unnecessarily powerful but slow. I am planning to try differnt backbone artitechtures like VGG16/19, Resnet18/34 to make it faster. 
-* Since, we now have the openvino-IR of both models we can do some optimization like post-training int8 quantization with openvino-nncf to increase the inference speed. Hence making it a more scalable solution.
+* For now, the segmentor is backed with Resnet50 which makes it powerful but slow. I am planning to try different backbone architectures like VGG16/19, Resnet18/34 to make it faster.
+* Try different model architectures for more FPS with minimal accuracy drop.
+* Since we now have the OpenVINO-IR of both models we can do some optimization like post-training int8 quantization with openvino-nncf to increase the inference speed. Hence making it a more scalable solution.
+
 
